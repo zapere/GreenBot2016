@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/league/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/league/Desktop/GreenBot2016/GreenBot2016/build/intermediates/pre-dexed/debug/support-annotations-22.1.1_df103917a223e607a3eed27c98cf0bf30a239ab3.jar" />
+    </item>
+    <item
+        jar="/Users/league/Desktop/GreenBot2016/GreenBot2016/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/league/Desktop/GreenBot2016/GreenBot2016/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.1.1_0d9f11f0fa3832eb2bb62f71c7001358cbe2ee4e.jar" />
+    </item>
+    <item
+        jar="/Users/league/Desktop/GreenBot2016/GreenBot2016/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/league/Desktop/GreenBot2016/GreenBot2016/build/intermediates/pre-dexed/debug/internal_impl-22.1.1_c00d5cbe043c5d4a8bb9e5c11511cee91cc94f84.jar" />
+    </item>
+    <item
+        jar="/Users/league/Desktop/GreenBot2016/GreenBot2016/build/intermediates/exploded-aar/GreenBot2016/iOIOLib/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e2c6c563e62b125f0aea59d798015ae5c669399">
+        <dex dex="/Users/league/Desktop/GreenBot2016/GreenBot2016/build/intermediates/pre-dexed/debug/GreenBot2016-iOIOLib-unspecified_3ef4f796278ea0f41f3a46893491b8f2d6ba0d86.jar" />
+    </item>
+    <item
+        jar="/Users/league/Desktop/GreenBot2016/GreenBot2016/build/intermediates/exploded-aar/GreenBot2016/iOIOiRobot2/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="92dc9d24766f64647a7b64e8bc0ea22d946f0ec8">
+        <dex dex="/Users/league/Desktop/GreenBot2016/GreenBot2016/build/intermediates/pre-dexed/debug/GreenBot2016-iOIOiRobot2-unspecified_7f8428c414f08e7903fab57b4152c4047fb7661b.jar" />
+    </item>
+
+</items>
