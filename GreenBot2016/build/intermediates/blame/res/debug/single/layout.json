@@ -1,18 +1,6 @@
 [
     {
-        "merged": "/Users/league/Desktop/GreenBot2016/GreenBot2016/build/intermediates/res/merged/debug/layout/main.xml",
-        "source": "/Users/league/Desktop/GreenBot2016/GreenBot2016/src/main/res/layout/main.xml"
-    },
-    {
-        "merged": "/Users/league/Desktop/GreenBot2016/WhiteBot2016/build/intermediates/res/merged/debug/layout/main.xml",
-        "source": "/Users/league/Desktop/GreenBot2016/WhiteBot2016/src/main/res/layout/main.xml"
-    },
-    {
-        "merged": "/Users/league/Desktop/CleverRobot/WhiteBot2016/build/intermediates/res/merged/debug/layout/main.xml",
-        "source": "/Users/league/Desktop/CleverRobot/WhiteBot2016/src/main/res/layout/main.xml"
-    },
-    {
-        "merged": "/Users/league/Desktop/CleverRobot/cleverRobot/build/intermediates/res/merged/debug/layout/main.xml",
-        "source": "/Users/league/Desktop/CleverRobot/cleverRobot/src/main/res/layout/main.xml"
+        "merged": "/Users/league/GreenBot2016/GreenBot2016/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/league/GreenBot2016/GreenBot2016/src/main/res/layout/main.xml"
     }
 ]
