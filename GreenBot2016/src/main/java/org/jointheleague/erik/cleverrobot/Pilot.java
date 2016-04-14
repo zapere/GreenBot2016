@@ -41,32 +41,21 @@ public class Pilot extends IRobotAdapter {
         dashboard.log(dashboard.getString(R.string.hello));
     }
 
-    /* This method is executed when the robot first starts up. */
+    /** This method is executed when the robot first starts up. **/
     public void initialize() throws ConnectionLostException {
         //what would you like me to do, Clever Human?
-        dashboard.log("Initializing...");
-        dashboard.log("Hello!");
-        //driveDirect(100, 100);
-        //SystemClock.sleep(1000);
-        //driveDirect(300,-300);
-        //SystemClock.sleep(2800 * 8 / 9);
-        //driveDirect(0,0);
-        driveDirect(0,50);
-        readSensors(20);
 
 
-        }
 
-    /* This method is called repeatedly. */
+    }
+
+    /** This method is called repeatedly. **/
     public void loop() throws ConnectionLostException {
-        angle += getAngle();
-        dashboard.log(angle+ "");
-        SystemClock.sleep(50);
-        if(angle >= 360){
-            driveDirect(0,0);
 
-        }
-        }
+
+
+
+    }
 
     /**
      * This method determines where to go next. This is a very simple Tortoise-like
