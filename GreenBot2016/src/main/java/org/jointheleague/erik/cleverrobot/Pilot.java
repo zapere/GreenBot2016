@@ -53,7 +53,7 @@ public class Pilot extends IRobotAdapter {
         dashboard.log("BatteryCapacity=" +
                 (batteryCharge * 100) / batteryCapacity +
                 "%");
-        
+
 
 
     }
@@ -63,7 +63,11 @@ public class Pilot extends IRobotAdapter {
      **/
     public void loop() throws ConnectionLostException {
 
+if (checkDone()){
 
+    nextCommand();
+
+}
     }
 
     /**
