@@ -53,7 +53,7 @@ public class Pilot extends IRobotAdapter {
         dashboard.log("BatteryCapacity=" +
                 (batteryCharge * 100) / batteryCapacity +
                 "%");
-
+        driveDirect(200,200);
 
 
     }
@@ -63,12 +63,40 @@ public class Pilot extends IRobotAdapter {
      **/
     public void loop() throws ConnectionLostException {
 
-if (checkDone()){
+        //if (checkDone()) {
+        //  nextCommand();
+        //}
+        readSensors(SENSORS_GROUP_ID101);
+        readSensors(SENSORS_BUMPS_AND_WHEEL_DROPS);
+        if (isBumpLeft()) {
+          driveDirect(100,-100);
+            SystemClock.sleep(800);
+            driveDirect(100,200);
+        }
+        if (isBumpRight()) {
+           driveDirect(-100,100);
+            SystemClock.sleep(800);
+            driveDirect(200,-100);
+        }
+        //if(isLightBump()){
 
-    nextCommand();
+        //  dashboard.log("Okay");
+        //}
+        //if(isWall()){
+        //   dashboard.log("Pigeon");
+        if (isBumpRight() && isBumpLeft()) {
 
-}
+            driveDirect(100, -100);
+
+            SystemClock.sleep(200);
+            driveDirect(0, 0);
+
+        }
     }
+    //}
+
+//}
+
 
     /**
      * This method determines where to go next. This is a very simple Tortoise-like
