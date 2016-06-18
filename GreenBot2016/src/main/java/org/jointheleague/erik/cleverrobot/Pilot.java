@@ -90,18 +90,21 @@ if (checkDone()){
         dashboard.log("currentCommand = " + currentCommand);
         switch (currentCommand) {
             case 0:
-                goStraight(1000);
+                goStraight(940);
                 break;
             case 1:
-                turnLeft(180);
+                turnLeft(90);
                 break;
             case 2:
-                goStraight(1000);
+                goStraight(736);
                 break;
             case 3:
-                turnRight(180);
+                turnLeft(90);
                 break;
             case 4:
+                goStraight(880);
+                break;
+            case 5:
                 shutDown();
                 break;
             default:
