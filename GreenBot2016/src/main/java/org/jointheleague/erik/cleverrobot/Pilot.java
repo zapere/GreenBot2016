@@ -41,18 +41,27 @@ public class Pilot extends IRobotAdapter {
         dashboard.log(dashboard.getString(R.string.hello));
     }
 
-    /** This method is executed when the robot first starts up. **/
+    /**
+     * This method is executed when the robot first starts up.
+     **/
     public void initialize() throws ConnectionLostException {
         //what would you like me to do, Clever Human?
-
+        safe();
+        readSensors(SENSORS_GROUP_ID3);
+        int batteryCharge = getBatteryCharge();
+        int batteryCapacity = getBatteryCapacity();
+        dashboard.log("BatteryCapacity=" +
+                (batteryCharge * 100) / batteryCapacity +
+                "%");
+        
 
 
     }
 
-    /** This method is called repeatedly. **/
+    /**
+     * This method is called repeatedly.
+     **/
     public void loop() throws ConnectionLostException {
-
-
 
 
     }
