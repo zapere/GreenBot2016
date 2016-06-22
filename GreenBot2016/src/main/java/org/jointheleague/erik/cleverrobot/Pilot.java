@@ -53,7 +53,7 @@ public class Pilot extends IRobotAdapter {
         dashboard.log("BatteryCapacity=" +
                 (batteryCharge * 100) / batteryCapacity +
                 "%");
-        driveDirect(200,200);
+        driveDirect(457,500);
 
 
     }
@@ -68,6 +68,19 @@ public class Pilot extends IRobotAdapter {
         //}
         readSensors(SENSORS_GROUP_ID101);
         readSensors(SENSORS_BUMPS_AND_WHEEL_DROPS);
+        readSensors(SENSORS_GROUP_ID100);
+        int[] light = getLightBumps();
+        dashboard.log(light[0]+"");
+        dashboard.log(light[1]+"");
+        dashboard.log(light[2]+"");
+        dashboard.log(light[3]+"");
+        dashboard.log(light[4]+"");
+        dashboard.log(light[5]+"");
+        if(isLightBump()){
+
+            driveDirect(-440,-500);
+
+        }
         if (isBumpLeft()) {
           driveDirect(100,-100);
             SystemClock.sleep(800);
